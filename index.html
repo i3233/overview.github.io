@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江河 - 资深产品经理作品集</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="profile-header">
+    <h1>江河</h1>
+    <h2>资深产品经理 | 十五年大厂经验</h2>
+    <p>专注需求分析与转化，交付高保真原型与清晰PRD文档。高效沟通，品质保障。</p>
+    <div class="contact-info">
+      微信号：ii3233  邮箱：32323300@qq.com
+      <!-- 可加微信二维码等 -->
+    </div>
+  </div>
+  
+  <section class="portfolio-section">
+    <h2>作品集</h2>
+    <div class="portfolio-list">
+      <div class="portfolio-card">
+        <img src="img/saaspc.png" alt="saas管理后台" class="portfolio-thumb" />
+        <div class="portfolio-divider"></div>
+        <div class="portfolio-info">
+          <h3>saas管理后台</h3>
+          <div class="portfolio-duration">工期：3-5天</div>
+          <p>为多行业客户打造的通用SaaS管理后台，支持多租户、权限分级、数据统计等核心功能，提升企业运营效率。</p>
+          <div class="view-tip pc-tip">建议PC浏览器打开</div>
+          <a href="https://i3233.github.io/saas.github.io/" target="_blank" class="portfolio-link">查看详情</a>
+        </div>
+      </div>
+      
+      <div class="portfolio-card">
+        <img src="img/saasyd.png" alt="saas管理后台移动端" class="portfolio-thumb" />
+        <div class="portfolio-divider"></div>
+        <div class="portfolio-info">
+          <h3>saas管理后台移动端</h3>
+          <div class="portfolio-duration">工期：3-5天</div>
+          <p>为SaaS管理后台配套设计的移动端产品，适配多种设备，支持核心业务随时随地高效处理。</p>
+          <a href="https://i3233.github.io/busman.github.io/" target="_blank" class="portfolio-link" data-qr="img/saasyd-2.png">查看详情</a>
+        </div>
+      </div>
+      
+      <div class="portfolio-card">
+        <img src="img/jsxcx.png" alt="聚商小程序" class="portfolio-thumb" />
+        <div class="portfolio-divider"></div>
+        <div class="portfolio-info">
+          <h3>聚商小程序</h3>
+          <div class="portfolio-duration">工期：7天</div>
+          <p>聚合本地商户资源，提供线上展示、活动推广、用户互动等功能，助力商家数字化转型与本地流量整合。</p>
+          <a href="https://i3233.github.io/business.github.io/" target="_blank" class="portfolio-link" data-qr="img/jsxcx-2.png">查看详情</a>
+        </div>
+      </div>
+      
+      <div class="portfolio-card">
+        <!-- 商户管理后台图片用占位块替代 -->
+        <div class="portfolio-thumb placeholder">
+          暂不开放预览
+        </div>
+        <div class="portfolio-divider"></div>
+        <div class="portfolio-info">
+          <h3>商户管理后台</h3>
+          <div class="portfolio-duration">工期：5天</div>
+          <p>专为本地商户设计的管理平台，涵盖门店、商品、订单、营销等模块，操作便捷，数据一目了然。</p>
+          <a href="#" target="_blank" class="portfolio-link">查看详情</a>
+        </div>
+      </div>
+      
+      <div class="portfolio-card">
+        <img src="img/dp.png" alt="模拟大屏" class="portfolio-thumb" />
+        <div class="portfolio-divider"></div>
+        <div class="portfolio-info">
+          <h3>模拟大屏</h3>
+          <div class="portfolio-duration">工期：0.5天</div>
+          <p>为企业管理层定制的可视化数据大屏，此处是模拟安装和设置的启动过程。</p>
+          <div class="view-tip pc-tip">建议PC浏览器打开</div>
+          <a href="https://i3233.github.io/bigscrpre.io/" target="_blank" class="portfolio-link">查看详情</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="footer">© 2024 王小明</div>
+
+  <!-- 弹窗结构 -->
+  <div id="mobile-tip-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-title">请用手机扫码访问，或PC浏览器F12切换到移动端模式</div>
+      <img id="mobile-tip-qr" src="" alt="二维码" class="qr-code">
+      <div class="modal-buttons">
+        <button onclick="closeMobileTip()" class="btn btn-close">关闭</button>
+        <a id="mobile-tip-continue" href="#" target="_blank" class="btn btn-continue">继续访问</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
